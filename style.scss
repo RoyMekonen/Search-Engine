@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+// thw style of the body
+body {
+  background-image: url("./img/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // the style of the main 
+  main {
+    // the ul style 
+    ul {
+      overflow-y: auto;
+      height: 500px;
+    }
+  }
+}
